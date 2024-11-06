@@ -19,9 +19,7 @@ const pixabayState = (props) => {
   }, [query]);
   const fetchImageByCategory = async (cat) => {
     const api = await fetch(
-      `https://pixabay.com/api/?key=${api_key}&category=${cat}&image_ty
-      
-      pe=photo&per_page=100`
+      `https://pixabay.com/api/?key=${api_key}&category=${cat}&image_type=photo&per_page=100`
       
     );
     const data = await api.json();
