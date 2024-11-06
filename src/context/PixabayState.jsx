@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
-import PixabayContext from './pixabay_context';
-// import PixabayContext from "./Pixabay_context";
+// import PixabayContext from './pixabay_context';
+import PixabayContext from "./Pixabay_context.jsx";
 
 const pixabayState = (props) => {
     const api_key = "46008902-ed2f1dfebd409f058de2131b7";
